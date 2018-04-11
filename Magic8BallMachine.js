@@ -1,11 +1,11 @@
-let userName = "YOUR NAME HERE...";
-let userQuestion = "TYPE YOUR QUESTION HERE...";
+let userName = "Will...";
+let userQuestion = "Will I get to marry Elon Musk?";
 let randomNumber = Math.floor(Math.random() * 8);
 let eightBall = "";
 
-userName ? console.log(`Hello ${userName}!`) : console.log("Hello");
+userName ? console.log(`Hello ${userName}, `) : console.log("Hello, ");
 
-console.log(`Ok, ${userName}, you asked this question: " ${userQuestion}" `);
+console.log(`You asked this question: " ${userQuestion}" `);
 
 switch (randomNumber) {
   case 0:
